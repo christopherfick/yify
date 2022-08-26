@@ -140,9 +140,8 @@ class MovieTable(Table):
 
     def load_movies(self, hrefs):
         print("\nLoading movies")
-        hrefs = self._find_missing_hrefs(hrefs)
-
-        for href in tqdm(hrefs):
+        missing_hrefs = self._find_missing_hrefs(hrefs)
+        for href in tqdm(missing_hrefs):
             movie = webscrape.Movie(href)
             self.insert_movie(movie)
 
@@ -151,7 +150,7 @@ class MovieTable(Table):
         if not movie_hrefs:
             return hrefs
         else:
-            return [href for href in movie_hrefs if href not in hrefs]
+            return [href for href in hrefs if href not in movie_hrefs]
         
     def insert_movie(self, Movie):
         if not Movie.info:
