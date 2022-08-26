@@ -1,0 +1,4 @@
+__pycache__/
+
+# ignore backup file on local machine
+backup/
