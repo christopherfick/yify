@@ -10,4 +10,9 @@ Tasks:
 
 
 #### Database:  
-![test](https://github.com/christopherfick/yify-repo/blob/main/images/database_design.drawio.png)
+![data_base_design](https://github.com/christopherfick/yify-repo/blob/main/images/database_design.drawio.png)
+  
+
+Note:
+- yify_collect_data: written as python file
+- yify_preprocessing: written as jupyter file (for display purposes)
