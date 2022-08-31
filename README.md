@@ -1,4 +1,4 @@
-# yify-repo
+# yify
 Data collection and processing from yify movie sight
 
 website: https://yts.mx/
