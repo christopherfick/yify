@@ -1,7 +1,6 @@
-# Due to the size of the data, it has been excluded  
+# Due to the size constraint, data ommited  
 
 If data directory empty...
 - Open main.py
 - Edit file (use created objects)
 - Run main.py
-
