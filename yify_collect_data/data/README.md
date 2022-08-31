@@ -1,4 +1,4 @@
-# Due to the size constraint, data ommited  
+# Data ommited, due to the size constraint.  
 
 If data directory empty...
 - Open main.py
