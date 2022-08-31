@@ -3,3 +3,6 @@
 
 # ignore all created databases
 **/*.db
+
+# ignore drawio hidden file
+**/*.bkp
